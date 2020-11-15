@@ -14,5 +14,5 @@ javascript:(() => {
     document.querySelector("[data-key='sourceOfFunds.bic']").value = 'BIC000000001'
   }
 
-  window.hacks = {populateNewClientFields}
+  (window.hacks = {populateNewClientFields})
 })();
